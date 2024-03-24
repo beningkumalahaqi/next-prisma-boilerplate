@@ -1,5 +1,31 @@
 # This a (Nextjs + Prisma) Boilerplate
 
+To run Prisma Generate
+```bash
+npx prisma generate
+```
+
+To run Prisma Migrate
+```bash
+npx prisma migrate dev --name migration_name
+```
+
+To run Prisma Studio
+```bash
+# Default (configured on package.json)
+npm run studio
+# Start Studio on the default port and open a new browser tab to it
+npx prisma studio
+# Start Studio on a different port and open a new browser tab to it
+npx prisma studio --port 7777
+# Start Studio and open a Firefox tab to it
+prisma studio --browser firefox
+# Start Studio without opening a new browser tab to it
+prisma studio --browser none
+```
+You can read more to understand prisma here [Prisma Docs](https://www.prisma.io/docs)
+
+
 ## Getting Started
 
 First, run the development server:
