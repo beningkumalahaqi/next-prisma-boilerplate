@@ -1,4 +1,4 @@
-# This a (Nextjs + Prisma) Boilerplate
+# This a (Nextjs V14.1.2 + Prisma V5.11.0) Boilerplate
 
 To run Prisma Generate
 ```bash
